@@ -1,0 +1,65 @@
+/*------------------------------------*\
+  $HEADER
+\*------------------------------------*/
+
+header {
+  height:$base-spacing-unit*9;
+  margin-bottom: $base-spacing-unit*2;
+  position: relative;
+}
+
+
+.logo, .nav-main {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.logo {
+  margin: $base-spacing-unit 0 0 6%;
+  a {
+    display: block;
+  }
+}
+.nav-main {
+  width: 66%;
+  margin-left: 7%;
+  .nav {
+    margin-bottom: 0;
+    > li {
+      > a {
+        background: $brand-color-light;
+        text-align: center;
+        text-decoration: none;
+        line-height: $base-spacing-unit*2.3;
+        height: $base-spacing-unit*2;
+        margin-right: 10%;
+        padding: 0;
+        &.active {
+          color: #fff;
+          background: $brand-color;
+        }
+        &:hover {
+          @extend a.active;
+        }
+      }
+    }
+  }
+}
+
+.nav-lang {
+  position: absolute;
+  top: 0;
+  right: 0;
+  li {
+      text-align: center;
+    > a {
+      font-size: 0.7em;
+      background: $brand-color-light;
+      text-decoration: none;
+    &:hover {
+      color: #fff;
+      background: $brand-color;
+      }
+    }
+  }
+}

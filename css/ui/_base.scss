@@ -1,0 +1,26 @@
+/***************
+     $BASE
+***************/
+
+html, body {
+  height: 100%;
+}
+html {
+  font-family: 'Open Sans', sans-serif;
+  color: $brand-color;
+}
+
+nav {
+  font-family: $brand-face;
+  font-size: 1.25em;
+}
+
+a {
+  color: $brand-color;
+}
+
+.is-emphasized {
+  background: $brand-color-light;
+}
+
+

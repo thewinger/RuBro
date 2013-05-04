@@ -1,0 +1,19 @@
+/*------------------------------------*\
+  $LAYOUT
+    -$HEADER
+    -$MAIN-CONTENT
+    -$FOOTER
+\*------------------------------------*/
+
+.wrapper {
+  width: 1000px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -50px;
+  @extend .cf;
+}
+
+footer, .footer-push {
+  height: 50px;
+}

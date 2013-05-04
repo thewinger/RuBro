@@ -26,13 +26,13 @@
 $use-grids:         false;
 $use-flexbox:       false;
 $use-columns:       false;
-$use-nav:           false;
+$use-nav:           true;
 $use-options:       false;
 $use-pagination:    false;
 $use-breadcrumb:    false;
-$use-media:         false;
+$use-media:         true;
 $use-marginalia:    false;
-$use-island:        false;
+$use-island:        true;
 $use-block-list:    false;
 $use-matrix:        false;
 $use-split:         false;
@@ -50,7 +50,7 @@ $use-greybox:       false;
 
 
 
-
+$debug-mode:        false;
 
 /*------------------------------------*\
     $OVERRIDES
@@ -58,8 +58,9 @@ $use-greybox:       false;
 /**
  * Place any variables that should override inuit.css’ defaults here.
  */
-
-
+$brand-color: #0B2E59;
+$brand-color-light: #CED5DE;
+$brand-face: 'Calendas', serif;
 
 
 
